@@ -33,23 +33,33 @@ El proyecto utiliza Maven para la gestión de dependencias. En el archivo `pom.x
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/book-finder-app.git
+   git clone https://github.com/AChanchari/app-consulta-libros.git
    cd book-finder-app
    ```
 
-2. Compila y ejecuta el proyecto:
+2. Compila y ejecuta el proyecto con Maven:
    ```bash
    ./mvnw spring-boot:run
    ```
 
-3. Accede a la aplicación desde tu navegador:
-   ```
-   http://localhost:8080
+   > En Windows, si `./mvnw` no funciona, usa:
+   ```bash
+   mvnw.cmd spring-boot:run
    ```
 
-## 📝 Notas
+3. La aplicación se ejecutará en la terminal y te pedirá que ingreses el nombre de un libro:
 
-- La búsqueda se realiza únicamente por el título del libro.
+   ```text
+   Ingrese el nombre del libro que deseas buscar:
+   ```
+
+   Después de escribir el nombre del libro (por ejemplo: `quijote`), verás los resultados directamente en la consola, incluyendo título, autor, idioma y estadísticas de descargas.
+
+---
+
+### 📌 Nota
+
+- La búsqueda se realiza únicamente por el título correcto del libro.
 - Esta aplicación es un proyecto personal creado con fines educativos y para práctica del consumo de APIs REST en Java con Spring Boot.
 
 ## 📚 API Gutendex
