@@ -34,7 +34,7 @@ El proyecto utiliza Maven para la gestión de dependencias. En el archivo `pom.x
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/AChanchari/app-consulta-libros.git
-   cd book-finder-app
+   cd app-consulta-libros
    ```
 
 2. Compila y ejecuta el proyecto con Maven:
