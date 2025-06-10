@@ -65,7 +65,7 @@ https://gutendex.com/books/?search=orgullo+y+prejuicio
 
 - **Anngie Chanchari**  
   Desarrolladora en formación | Apasionada por el backend y el aprendizaje constante  
-  [GitHub](https://github.com/tu-usuario)
+  [GitHub](https://github.com/AChanchari)
 
 ---
 
